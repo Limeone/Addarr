@@ -18,6 +18,7 @@ sonarr:
     - 
   defaultTags: # If set must be existing tags
     - telegram
+  addUsernameTag: false # If set true, must be existing tag of curresponding username, skiped otherwise
   adminRestrictions: false
 
 #Radarr Configuration
@@ -39,6 +40,7 @@ radarr:
     - 
   defaultTags: # If set must be existing tags
     - telegram
+  addUsernameTag: false # If set true, must be existing tag of curresponding username, skiped otherwise
   adminRestrictions: false
   
 #Telegram Configuration
