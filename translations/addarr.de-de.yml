@@ -21,7 +21,7 @@ de-de:
   Future seasons: Künftige Staffeln
   Authorize: Dieser Chat muss noch autorisiert werden. Was ist das Passwort?
   Wrong password: Das Password ist nicht korrekt. Probiere es erneut...
-  Chatid added: "Dieser Chat wurde zur autorisierten Liste hinzugefügt. Du kannst den Bot jetzt benutzen. \Befehle müssen erneut ausgeführt werden."
+  Chatid added: "Dieser Chat wurde zur autorisierten Liste hinzugefügt. Du kannst den Bot jetzt benutzen. \nBefehle müssen erneut ausgeführt werden."
   NotAdmin: "Du musst ein Admin sein um diesen Befehl zu benutzen."
   Chatid already allowed: "Dieser Chat ist bereits autorisiert."
   Help: "Um diesen Text erneut zu sehen benutze /%{help}.
