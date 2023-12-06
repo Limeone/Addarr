@@ -736,6 +736,9 @@ async def addSerieMovie(update, context):
     #Currently not working, on development
     #[service.createTag(dt) for dt in service.config.get("defaultTags", []) if dt not in service.getTags()]
     tags = [int(t["id"]) for t in service.getTags() if t["label"] in service.config.get("defaultTags", [])]
+    if(service.config["addUsernameTag"]):
+        usernameTags = [int(t["id"]) for t in service.getTags() if t["label"] == update.effective_user["username"]]
+        tags.extend(tag for tag in usernameTags if tag not in tags)
     logger.debug(f"Tags {tags} have been selected.")
     
     if not service.inLibrary(idnumber):
